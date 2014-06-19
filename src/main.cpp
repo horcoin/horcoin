@@ -2917,7 +2917,7 @@ bool InitBlockIndex() {
     // CTxOut(nValue=400.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
     // vMerkleTree: b0019d92bc054f7418960c91e252e7d24c77719c7a30128c5f6a827c73095d2a 
 	
-		const char* pszTimestamp = "horizon";
+		const char* pszTimestamp = "Felipe VI: La Monarquía debe tener una donducta íntegra y honesta";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
