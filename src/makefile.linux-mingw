@@ -100,7 +100,7 @@ OBJS= \
     obj/simd.o \
 	obj/checkpointsync.o
 
-all: CannabisCoind.exe
+all: HorizonCoind.exe
 
 DEFS += -I"$(CURDIR)/leveldb/include"
 DEFS += -I"$(CURDIR)/leveldb/helpers"
@@ -118,12 +118,12 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 	
-CannabisCoind.exe: $(OBJS:obj/%=obj/%)
+HorizonCoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
 	-rm -f obj/*.o
-	-rm -f CannabisCoind.exe
+	-rm -f HorizonCoind.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 
