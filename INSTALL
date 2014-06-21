@@ -1,9 +1,9 @@
 Building HorizonCoin
 
-See doc/readme-qt.rst for instructions on building HorizonCoin-Qt,
+See doc/readme-qt.rst for instructions on building HorizonCoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
 implementation of HorizonCoin.
 
-See doc/build-*.txt for instructions on building HorizonCoind,
+See doc/build-*.txt for instructions on building horizoncoind,
 the intended-for-services, no-graphical-interface, reference
 implementation of HorizonCoin.

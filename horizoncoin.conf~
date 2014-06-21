@@ -1,0 +1,12 @@
+server=1
+listen=1
+rpcuser=horizonuser
+rpcpassword=horizonpass
+rpcport=39347
+rpcallowip=127.0.0.1
+addnode=seed.horizoncoin.net
+addnode=seed2.horizoncoin.net
+addnode=seed3.horizoncoin.net
+
+
+
